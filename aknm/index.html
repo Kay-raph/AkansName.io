@@ -5,18 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script type="jss/scripts.js"></script>
+    <script type="scripts.js"></script>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <title>akan naming</title>
 </head>
 
 <h1>AKAN NAMING</h1>
 <div class="output">
-        <form onsubmit="return validateForm()" method="POST">
+        <form id="my_form">
+                <!-- Your Form -->    
+                <a href="javascript:{}" onclick="document.getElementById('my_form').submit(); return false;"></a>
+                </form>
+        <form submit="return validateForm()">
            <div class="form-group">
-               <label for="year">Year</label>
+               <label for="year">YEAR</label>
                <input type="text"
                required
                id="year"
@@ -28,7 +33,7 @@
                class="form-control">
            </div>
            <div class="form-group">
-               <label for="month">Month</label>
+               <label for="month">MONTH</label>
                <input type="text"
                placeholder="01"
                id="month"
@@ -40,7 +45,7 @@
                 class="form-control">
            </div>
            <div class="form-group">
-               <label for="day">Day</label>
+               <label for="day">DAY</label>
                <input type="text"
                id="day"
                placeholder="01"
@@ -60,9 +65,8 @@
                    name="gender"
                    id="male"
                    required
-                   />
-                   Male </label
-                   ><br />
+                   <div/>
+                   Male </label><br/>
                    <label for="radio" class="radio-inline">
                    <input
                    type="radio"
@@ -75,6 +79,7 @@
                    </label>
                  </div>
                  </div>
+                 <a onclick="submission()" class="btn btn-outline-info btn-lg"></a>
            <button type="submit" onclick="getName()" onsubmit="event.preventDefault()" class="btn btn-outline-primary">submit</button>
            <button type="Reset" onclick="getName()" onsubmit="event.preventDefault()" class="btn btn-outline-primary">Reset</button>
           </form>

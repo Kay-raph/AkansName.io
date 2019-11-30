@@ -4,7 +4,7 @@
     position: relative;
     font-weight: bold;
     color: red;
-    filter: blur(1px);
+    filter: blur(0.5px);
     position: absolute;
     top: 30%;
     left: 50%;
