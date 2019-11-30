@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="jss/scripts.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <title>akan naming</title>
+</head>
+
+<h1>AKAN NAMING</h1>
+<div class="output">
+        <form onsubmit="return validateForm()" method="post">
+           <div class="form-group">
+               <label for="year">Year</label>
+               <input type="text"
+               required
+               id="year"
+               max="2035"
+               min="1950"
+               placeholder="1950"
+               max-length="4"
+               min-length="4"
+               class="form-control">
+           </div>
+           <div class="form-group">
+               <label for="month">Month</label>
+               <input type="text"
+               placeholder="01"
+               id="month"
+               maxlength="2"
+               min="1"
+               max="12"
+               min-length="1"
+               required
+                class="form-control">
+           </div>
+           <div class="form-group">
+               <label for="day">Day</label>
+               <input type="text"
+               id="day"
+               placeholder="01"
+               min="1"
+               max="31"
+               min-length="1"
+               max-length="2"
+               required
+                class="form-control">
+           </div>
+           <div class="form-group">
+                   <div>
+                   <label for="radio" class="radio-inline">
+                   <input
+                   type="radio"
+                   value="male"
+                   name="gender"
+                   id="male"
+                   required
+                   />
+                   Male </label
+                   ><br />
+                   <label for="radio" class="radio-inline">
+                   <input
+                   type="radio"
+                   value="male"
+                   name="gender"
+                   id="female"
+                   required
+                   />
+                   Female
+                   </label>
+                 </div>
+                 </div>
+           <button type="submit" onclick="getName()" onsubmit="event.preventDefault()" class="btn btn-outline-primary">submit</button>
+           <button type="Reset" onclick="getName()" onsubmit="event.preventDefault()" class="btn btn-outline-primary">Reset</button>
+          </form>
+          </div>
+          </div>
+         </div>
+         
+<body>
+</body>
+
+</html>

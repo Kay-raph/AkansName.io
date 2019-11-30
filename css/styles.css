@@ -3,16 +3,42 @@
     font-size: x-large;
     position: relative;
     font-weight: bold;
-    color: aqua;
+    color: red;
     filter: blur(1px);
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
     width: 80%;
-    padding: 20px;
-    border: 8px solid #f1f1f1;
+    padding: 12px;
+    border: 12px solid aquamarine;
+    border-style: dotted;
+}
+
+.para {
+    text-align: center;
+    color: white;
+    font-style: oblique;
+    font-weight: bolder;
+    position: relative;
+    bottom: 180px; 
+    left: 138px;  
+    border: 10px solid aqua; 
+    width: 80%;
+}
+/*.blr{
+    background: gray;
+    filter:blur(4px);
+    -o-filter:blur(4px);
+    -ms-filter:blur(4px);
+    -moz-filter:blur(4px);
+    -webkit-filter:blur(4px);
+}*/
+
+.hr {
+    color: royalblue;
+    font-style: italic;
 }
 
 .bg-text {
@@ -31,8 +57,8 @@
 }
 
 blink {
-    -webkit-animation: 1s linear infinite condemned_blink_effect; // for Safari 4.0 - 8.0
-    animation: 1s linear infinite condemned_blink_effect;
+    -webkit-animation: 2s linear infinite condemned_blink_effect; // for Safari 4.0 - 8.0
+    animation: 2s linear infinite condemned_blink_effect;
 }
 
 @-webkit-keyframes condemned_blink_effect {
@@ -59,5 +85,3 @@ blink {
         visibility: visible;
     }
 }
-
-Browser
