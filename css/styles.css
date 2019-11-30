@@ -22,7 +22,7 @@
     font-style: oblique;
     font-weight: bolder;
     position: relative;
-    bottom: 180px; 
+    bottom: 200px; 
     left: 138px;  
     border: 10px solid aqua; 
     width: 80%;
@@ -54,6 +54,12 @@
 .hd {
     color: palevioletred;
     font-style: italic;
+}
+.footer{
+    text-align: right;
+    color: aqua;
+    position: relative;
+    left: -10px;
 }
 
 blink {
