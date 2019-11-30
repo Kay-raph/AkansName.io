@@ -1,14 +1,63 @@
-h1 {
+.hhh {
     text-align: center;
     font-size: x-large;
+    position: relative;
+    font-weight: bold;
     color: aqua;
+    filter: blur(1px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    border: 8px solid #f1f1f1;
 }
 
-.hhh {
-    border-block: solid red;
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    text-align: center;
 }
 
 .hd {
+    color: palevioletred;
     font-style: italic;
-    color: blueviolet;
 }
+
+blink {
+    -webkit-animation: 1s linear infinite condemned_blink_effect; // for Safari 4.0 - 8.0
+    animation: 1s linear infinite condemned_blink_effect;
+}
+
+@-webkit-keyframes condemned_blink_effect {
+    // for Safari 4.0 - 8.0
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+
+@keyframes condemned_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+
+Browser
