@@ -14,14 +14,14 @@
     <title>akan naming</title>
 </head>
 <h1>
-    <blink>AKAN NAMING SYSTEM</blink>
+    <blink>AKAN NAMING SYSTEM<br>please fill in the deatils below</blink>
 </h1>
 <div class="output">
     <form action="" id="my_form" method="POST">
         <!-- Your Form -->
         <a href="javascript:{}" onclick="document.getElementById('my_form').submit(); return false;"></a>
     </form>
-    <form submit="return validateForm()">
+    <form name="my_Form" onsubmit="return validateForm()" method="POST">
         <div class="form-group">
             <label for="year">YEAR</label>
             <input type="text" required id="year" max="2035" min="1950" placeholder="1950" max-length="4" min-length="4" class="form-control">

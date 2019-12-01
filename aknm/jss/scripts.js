@@ -24,10 +24,11 @@ function getName() {
 //validation
 function validateForm() {
     if (day <= 0 || day > 31)
-        alert("Oops!please enter a valid day");
+        alert("Sorry!please enter a valid day");
     else if (month < 0 || month > 12)
-        alert("Oops!please enter a valid month");
-
+        alert("Sorry!please enter a valid month");
+    else if (year < 1950 || year > 2035)
+        alert("Sorry!please enter a valid year")
 
     var day = new Date(year + "/" + month + "/" + day);
 
