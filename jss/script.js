@@ -12,14 +12,13 @@ var femaleNames = [
 ];
 
 //calling functions
-function getName() {
     var year = parseInt(document.getElementById("year").value);
     var month = parseInt(document.getElementById("month").value);
     var day = parseInt(document.getElementById("day").value);
     var male = document.getElementById("male");
     var female = document.getElementById("female");
     document.getElementById("myDate").innerHTML = alert;
-}
+
 
 //validation
 function validateForm() {
