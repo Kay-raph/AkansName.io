@@ -66,7 +66,7 @@ h1 {
     /* Apply animation to this element */
     -moz-animation: example1 10s linear infinite;
     -webkit-animation: example1 10s linear infinite;
-    animation: example1 15s linear infinite;
+    animation: example1 10s linear infinite;
 }
 
 
