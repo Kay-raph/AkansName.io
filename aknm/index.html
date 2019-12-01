@@ -5,60 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script type="scripts.js"></script>
+    <script type="jss/scripts.js"></script>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <title>akan naming</title>
 </head>
-
-<h1>AKAN NAMING</h1>
+<h1>
+    <blink>AKAN NAMING SYSTEM</blink>
+</h1>
 <div class="output">
-        <form id="my_form">
-                <!-- Your Form -->    
-                <a href="javascript:{}" onclick="document.getElementById('my_form').submit(); return false;"></a>
-                </form>
-        <form submit="return validateForm()">
-           <div class="form-group">
-               <label for="year">YEAR</label>
-               <input type="text"
-               required
-               id="year"
-               max="2035"
-               min="1950"
-               placeholder="1950"
-               max-length="4"
-               min-length="4"
-               class="form-control">
-           </div>
-           <div class="form-group">
-               <label for="month">MONTH</label>
-               <input type="text"
-               placeholder="01"
-               id="month"
-               maxlength="2"
-               min="1"
-               max="12"
-               min-length="1"
-               required
-                class="form-control">
-           </div>
-           <div class="form-group">
-               <label for="day">DAY</label>
-               <input type="text"
-               id="day"
-               placeholder="01"
-               min="1"
-               max="31"
-               min-length="1"
-               max-length="2"
-               required
-                class="form-control">
-           </div>
-           <div class="form-group">
-                   <div>
-                   <label for="radio" class="radio-inline">
+    <form action="" id="my_form" method="POST">
+        <!-- Your Form -->
+        <a href="javascript:{}" onclick="document.getElementById('my_form').submit(); return false;"></a>
+    </form>
+    <form submit="return validateForm()">
+        <div class="form-group">
+            <label for="year">YEAR</label>
+            <input type="text" required id="year" max="2035" min="1950" placeholder="1950" max-length="4" min-length="4" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="month">MONTH</label>
+            <input type="text" placeholder="01" id="month" maxlength="2" min="1" max="12" min-length="1" required class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="day">DAY</label>
+            <input type="text" id="day" placeholder="01" min="1" max="31" min-length="1" max-length="2" required class="form-control">
+        </div>
+        <div class="form-group">
+            <div>
+                <label for="radio" class="radio-inline">
                    <input
                    type="radio"
                    value="male"
@@ -67,7 +45,7 @@
                    required
                    <div/>
                    Male </label><br/>
-                   <label for="radio" class="radio-inline">
+                <label for="radio" class="radio-inline">
                    <input
                    type="radio"
                    value="male"
@@ -77,17 +55,18 @@
                    />
                    Female
                    </label>
-                 </div>
-                 </div>
-                 <a onclick="submission()" class="btn btn-outline-info btn-lg"></a>
-           <button type="submit" onclick="getName()" onsubmit="event.preventDefault()" class="btn btn-outline-primary">submit</button>
-           <button type="Reset" onclick="getName()" onsubmit="event.preventDefault()" class="btn btn-outline-primary">Reset</button>
-          </form>
-          </div>
-          </div>
-         </div>
-         
+            </div>
+        </div>
+        <a onclick="submission()" class="btn btn-outline-info btn-lg"></a>
+        <button type="submit" onclick="getName()" onsubmit="event.preventDefault()" class="btn btn-outline-primary">submit</button>
+        <button type="Reset" onclick="getName()" onsubmit="event.preventDefault()" class="btn btn-outline-primary">Reset</button>
+    </form>
+</div>
+
 <body>
+    <div class="bg-image">
+
+    </div>
 </body>
 
 </html>

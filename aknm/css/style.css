@@ -1,42 +1,51 @@
-body,html{
-    background-color: purple;
+body,
+html {
+    background-color: saddlebrown;
 }
+
 h1 {
     text-align: center;
     font: bolder;
     color: aqua;
-
+    border: 10px solid white;
+    width: 50%;
+    position: relative;
+    left: 300px;
 }
+
 input {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-  }
-  label {
+}
+
+label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-  }
-  button[type=submit] {
-    background-color:aqua;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size:20px;
-  }
-  button[type=reset]{
-    background-color:aqua;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size:20px;
-    margin-left:40px;
-  }
+}
 
-  input[type=radio]{
-      font-size:20px;
-  }
+button[type=submit] {
+    background-color: aqua;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button[type=reset] {
+    background-color: aqua;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+input[type=radio] {
+    font-size: 20px;
+}
