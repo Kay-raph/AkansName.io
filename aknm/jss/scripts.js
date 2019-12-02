@@ -24,6 +24,8 @@ if(day<=0||day>31)
 alert("Sorry!Enter a valid day");
 else if(month<0||month>12)
 alert("Sorry!Enter a valid month");
+    else if (year < 1950 || year > 2035)
+        alert("Sorry!Enter a valid year");
 
 
 var day = new Date(year + "/" + month + "/" + day);
