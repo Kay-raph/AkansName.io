@@ -9,6 +9,6 @@ landing page loads,then a message blinks and asks if you want to know your Akan 
 <h5>Technology Used</h5>
 I have used:<li>html5</li><li>javascript(for form validation)</li><li>jQuery</li><li>bootstrap css</li><li>bootstrap jss</li><li>Github for hosting and version update control.</li>
 <h6>Contact Details</h6>
-Kevin raphael Mugita<br>Phone; +254710288908.<br>Email; kayraph3d@gmail.com.
+Kevin raphael Mugita<br>Phone; +254710288908.<br>Email; kayraph3d@gmail.com.<br>
 <h7>License</h7>
 Licensed under MIT license.
