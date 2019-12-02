@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
@@ -16,11 +15,7 @@
     <blink>AKAN NAMING SYSTEM<br>please fill in the deatils below</blink>
 </h1>
 <div class="output">
-    <form action="" id="my_form" method="POST">
-        <!-- Your Form -->
-        <a href="javascript:{}" onclick="document.getElementById('my_form').submit(); return false;"></a>
-    </form>
-    <form name="my_Form" onsubmit="return validateForm()" method="POST">
+    <form onsubmit="event.preventDefault()">
         <div class="form-group">
             <label for="year">YEAR</label>
             <input type="text" required id="year" max="2035" min="1950" placeholder="1950" max-length="4" min-length="4" class="form-control">
@@ -56,12 +51,12 @@
                    </label>
             </div>
         </div>
-        <a onclick="submission()" class="btn btn-outline-info btn-lg"></a>
         <button type="submit" onclick="getName()" onsubmit="event.preventDefault()" class="btn btn-outline-primary">submit</button>
         <button type="Reset" onclick="getName()" onsubmit="event.preventDefault()" class="btn btn-outline-primary">Reset</button>
     </form>
 </div>
-
+    </div>
+</div>
 <body>
     <div class="bg-image">
 
