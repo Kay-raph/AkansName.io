@@ -13,4 +13,3 @@ Kevin raphael Mugita<br>Phone; +254710288908.<br>Email; kayraph3d@gmail.com.<br>
 <h7><b><p>License</p></b></h7>
 Licensed under the <a href="https://github.com/Kay-raph/AkansNames/blob/master/LICENSE">MIT licenses</a>.
 <p>&copy; 2019 kayraph3d@gmail.com<p> Mugita Raphael Kevin
-
