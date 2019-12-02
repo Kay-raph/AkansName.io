@@ -11,6 +11,6 @@ I have used:<li>html5</li><li>javascript(for form validation)</li><li>jQuery</li
 <h6>Contact Details</h6>
 Kevin raphael Mugita<br>Phone; +254710288908.<br>Email; kayraph3d@gmail.com.<br>
 <h7><b><p>License</p></b></h7>
-Licensed under the <a href="http://www.githubapache.org/licenses/Kay-raph/AkansName">Apache License 2.0</a>.
+Licensed under the <a href="LICENSE">Apache License 2.0</a>.
 <p>&copy; 2019 kayraph3d@gmail.com<p> Mugita Raphael Kevin
 
