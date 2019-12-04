@@ -4,7 +4,7 @@ var daysOfWeek = [
 ];
 
 var maleNames = [
-    "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"
+    "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame",
 ];
 
 var femaleNames = [
